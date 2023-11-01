@@ -27,8 +27,8 @@ def tokenize_data(data_path, output_path=None):
     return data
 
 # Paths
-INPUT_PATH = '/Users/Negar/Library/CloudStorage/GoogleDrive-nkamal5@uic.edu/My Drive/2nd PhD/Research/With Jessica/Conformal Prediction/Conformlab/OOS_Intent_Classification/data/cleaned_data.json'
-OUTPUT_PATH = '/Users/Negar/Library/CloudStorage/GoogleDrive-nkamal5@uic.edu/My Drive/2nd PhD/Research/With Jessica/Conformal Prediction/Conformlab/OOS_Intent_Classification/data/data_full_tokenized.json'
+INPUT_PATH = '../data/cleaned_data.json'
+OUTPUT_PATH = '../data/data_full_tokenized.json'
 
 # Tokenize and save the data
 tokenized_data = tokenize_data(INPUT_PATH, OUTPUT_PATH)

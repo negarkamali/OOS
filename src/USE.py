@@ -1,6 +1,7 @@
 import json
 import tensorflow_hub as hub
 import numpy as np
+import os
 
 # Load Universal Sentence Encoder
 embed = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4")

@@ -1,0 +1,10 @@
+YourProject/
+├── src/
+│   ├── preprocess.py
+│   └── mlp_model.py
+├── data/
+│   └── data_oos_plus_embedded.json
+├── results/
+│   ├── evaluation_results.txt
+│   └── ...
+└── README.md

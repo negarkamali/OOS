@@ -1,5 +1,6 @@
 import json
 import re
+import os
 
 INPUT_FILE = '../data/data_full.json'
 OUTPUT_FILE = '../data/cleaned_data.json'
